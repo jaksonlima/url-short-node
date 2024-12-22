@@ -1,0 +1,45 @@
+# Diretório de dependências
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Testes
+coverage/
+*.lcov
+
+# Build
+dist/
+build/
+out/
+
+# Configurações de IDE
+.idea/
+.vscode/
+*.swp
+
+# Ambientes
+.env
+.env.*.local
+
+# Cache do pacote
+.npm/
+.yarn/
+.pnpm-debug.log
+
+# Cache de serviços
+.cache/
+
+# Outras configurações do Git
+*.lock
+package-lock.json
+yarn.lock
